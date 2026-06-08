@@ -1,8 +1,8 @@
 const axios = require("axios");
 
-const BOT_TOKEN = process.env.8792253369:AAE_Sk5GVG8uFKoOuEAmbDtFVSg_y0MzuQM;
-const CHANNEL_ID = process.env.@amar_news_bot;
-const API_KEY = process.env.1a3a4c903e79feb442626e4346298961;
+const BOT_TOKEN = process.env.BOT_TOKEN;
+const CHANNEL_ID = process.env.CHANNEL_ID;
+const API_KEY = process.env.API_KEY;
 
 async function sendMessage(text) {
   await axios.post(`https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`, {
